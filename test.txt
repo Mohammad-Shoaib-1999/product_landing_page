@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header id="header">
+       
+            <img src="https://img.freepik.com/free-vector/branding-identity-corporate-vector-logo-design_460848-8717.jpg?t=st=1709869842~exp=1709873442~hmac=77a7a59230df784f00ba4490414ce47fa832be554deda54e1370c78c9e05cac5&w=826" alt="" >
+       
+        <nav id="nav-bar">
+            <a class="nav-link" href="#section1">Section 1</a>
+            <a class="nav-link" href="#section2">Section 2</a>
+            <a class="nav-link" href="#section3">Section 3</a>
+        </nav>
+    </header>
+    <main>
+      <section id="section1" class="showcase">
+        <div class="content">
+          <!-- <img src="./img/my.jpg" class="logo" alt="Traversy Media"> -->
+          <div class="title">Welcome To Mohamad Shoaib</div>
+          <div class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, vel.
+          </div>
+        </div>
+      </section>
+      <section id="section2" class="services">
+        <div class="container grid-3 center">
+          <div>
+            <i class="fab fa-youtube fa-3x"></i>
+
+            <h3>YouTube</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+              reiciendis!
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-chalkboard-teacher fa-3x"></i>
+
+            <h3>Courses</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+              reiciendis!
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-briefcase fa-3x"></i>
+
+            <h3>Freelancing Projects</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil,
+              reiciendis!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- About -->
+      <section id="section3" class="about bg-light">
+        <div class="container">
+          <div class="grid-2">
+            <div class="center">
+              <i class="fas fa-laptop-code fa-10x"></i>
+            </div>
+            <div>
+              <h3>About Us</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
+                eos aperiam labore consectetur maiores ea magni exercitationem
+                similique laborum sed, unde, autem vel iure doloribus aliquid.
+                Aspernatur explicabo consectetur consequatur non nesciunt
+                debitis quos alias soluta, ratione, ipsa officia reiciendis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="video" class="video-container" >
+        <div class="card">
+        <img src="https://img.freepik.com/free-vector/businessman-character-avatar-isolated_24877-60111.jpg?t=st=1709870525~exp=1709874125~hmac=8d98c613299bb74103c9aac4e38abf02fc746e3d8e04f91ead39f9bc7e0d4568&w=740" alt="Avatar" style="width:100%; border-radius: 5px 5px 0 0;">
+        <div class="container" style="padding: 2px 16px;">
+          <h4><b>Jane Doe</b></h4> 
+          <p>Interior Designer</p> 
+        </div>
+    </div>
+      </section>
+      <section id="form" >
+          <h2>Contact Us</h2>
+          <form action="https://www.freecodecamp.com/email-submit" method="post">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" placeholder="Enter your email" required>
+              <input type="submit" id="submit" value="Submit">
+          </form>
+      </section>
+    </main>
+
+    <!-- Services -->
+  
+
+    <footer class="center bg-dark">
+      <p>Mohamad Shoaib &copy; 2024</p>
+    </footer>
+  </body>
+</html> -->
+
+
+
+
+
+body {
+    background: rgba(0, 0, 0, 0.9);
+    margin: 0;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    /* position: fixed; */
+    /* width: 100%; */
+    height: 50px;
+    top: 0;
+}
+
+#header img{
+    height: 80px;
+    width: 170px;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+  
+  .showcase::after {
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-image: url(https://image.ibb.co/gzOBup/showcase.jpg);
+    /* background-color: white; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: block;
+    filter: blur(10px);
+    -webkit-filter: blur(10px);
+    transition: all 1000ms;
+  }
+  
+  .showcase:hover::after {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+  
+  .showcase:hover .content {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  }
+  
+  .content {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 50%;
+    margin-top: 105px;
+    margin-left: -145px;
+    width: 300px;
+    height: 350px;
+    text-align: center;
+    transition: all 1000ms;
+  }
+  
+  .content .logo {
+    height: 180px;
+    width: 180px;
+  }
+  
+  .content .title {
+    font-size: 2.2rem;
+    margin-top: 1rem;
+  }
+  
+  .content .text {
+    line-height: 1.7;
+    margin-top: 1rem;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 4rem 1rem;
+  }
+  
+  .grid-3 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .grid-2 {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .center {
+    text-align: center;
+    margin: auto;
+  }
+  
+  .bg-light {
+    background: #f4f4f4;
+    color: #333;
+  }
+  
+  .bg-dark {
+    background: #333;
+    color: #f4f4f4;
+  }
+.video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .card {
+  
+    /* flex-direction: column; */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    width: 20%;
+    height: fit-content;
+  }
+  #video {
+    background-color: #eee;
+}
+
+#form {
+    background-color: #f5f5f5;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+  
+  footer {
+    padding: 2.2rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Small Screens */
+  @media (max-width: 560px) {
+    .showcase::after {
+      height: 50vh;
+    }
+  
+    .content {
+      top: 35%;
+      margin-top: 5px;
+    }
+  
+    .content .logo {
+      height: 140px;
+      width: 140px;
+    }
+  
+    .content .text {
+      display: none;
+    }
+  
+    .grid-3,
+    .grid-2 {
+      grid-template-columns: 1fr;
+    }
+  
+    .services div {
+      border-bottom: #333 dashed 1px;
+      padding: 1.2rem 1rem;
+    }
+  }
+  
+  /* Landscape */
+  @media (max-height: 500px) {
+    #nav-bar {
+        flex-direction: column;
+    }
+    .content .title,
+    .content .text {
+      display: none;
+    }
+  
+    .content {
+      top: 0;
+    }
+  }
+  
+  /* Add this at the end of your existing CSS */
+  .container svg path {
+    fill: white;  /* Change the color to white */
+}
+
+/* Replace 'xl' with an appropriate size, e.g., '24px' */
+.container svg {
+    width: 100px;
+    height: 100px;
+}
+

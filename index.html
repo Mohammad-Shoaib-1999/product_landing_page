@@ -9,179 +9,608 @@
 
   <body>
     <header id="header">
-      <img id="header-img" src="logo.png" alt="Logo" />
-      <nav id="nav-bar">
-        <a class="nav-link" href="#section1">Section 1</a>
-        <a class="nav-link" href="#section2">Section 2</a>
-        <a class="nav-link" href="#section3">Section 3</a>
+      <nav class="nav container" id="nav-bar">
+        <a href="#" class="nav__logo">
+          <img
+            id="header-img"
+            src="./img/logo.png"
+            alt="Logo"
+            class="nav__logo-img"
+          />.io
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav-link" href="#section1">Home</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav-link" href="#section2">About</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav-link" href="#section3">Product</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav-link" href="#section4">Pricing Plans</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav-link" href="#form">Contact</a>
+            </li>
+            <a href="#" class="button button--ghost">Login</a>
+          </ul>
+
+          <!-- <div class="nav__close" id="nav-close">
+            <i class='bx bx-x'></i>
+        </div> -->
+          <!-- <img src="assets/img/nav-img.png" alt="" class="nav__img"> -->
+          <!--  -->
+        </div>
+        <!-- <div class="nav__toggle" id="nav-toggle">
+        <i class="bx bx-grid-alt"></i>
+      </div> -->
       </nav>
     </header>
 
-    <main>
-      <section class="parent1" id="section1">
-        <!-- <div class="left-section">
-          <h1>
-            Communicate. <br />
-            Collaborate. Create.
-          </h1>
-          <p>
-            We provide an effective and powerful way to manage your projects
-          </p>
-        </div>
-        <div class="right-section">
-          <img src="./img/hero.svg" style="height: 50%" alt="" />
-        </div> -->
-      </section>
+    <main class="main">
+      <section class="section about" id="section1">
+        <div class="about__container container grid">
+          <img src="./img/hero.svg" alt="" class="about__img" />
 
-      <section class="parent1" id="section2">
-        <!-- <div>
-          <h2>
-            With the Right <br />
-            Software, Great <br />Things Can Happen
-          </h2>
-        </div>
-        <div>
-          <p>
-            I'm a paragraph. Click here to add your own text and edit me. It’s
-            easy. Just click “Edit Text” or double click me to add your own
-            content and make changes to the font. Feel free to drag and drop me
-            anywhere you like on your page. I’m a great place for you to tell a
-            story and let your users know a little more about you.
-          </p>
-        </div> -->
-      </section>
-
-      <section class="parent2" id="section3">
-        <!-- <div class="top">
-          <h2>What We Offer</h2>
-          <p>
-            I'm a paragraph. Click here to add your own text and edit me. It’s
-            easy. Just click “Edit Text” or double click me to add your own
-            content and make changes to the font.
-          </p>
-        </div>
-        <div class="bottom">
-          <div class="card-container">
-            <div class="card">
-              <img src="./img/workflow.svg" alt="Avatar" />
-              <div class="container">
-                <p><b>Workflows That Work</b></p>
-                <p>
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  I’m a great place for you to tell a story and let your users
-                  know a little more about you.
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./img/solution.svg" alt="Avatar" />
-
-              <div class="container">
-                <p><b>All-In-One Solution</b></p>
-                <p>
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  I’m a great place for you to tell a story and let your users
-                  know a little more about you.
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./img/support.svg" alt="Avatar" />
-              <div class="container">
-                <p><b>Comprehensive Customer Support</b></p>
-                <p>
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  I’m a great place for you to tell a story and let your users
-                  know a little more about you.
-                </p>
-              </div>
-            </div>
-            <div class="card">
-              <img src="./img/automate.svg" alt="Avatar" />
-              <div class="container">
-                <p><b>Smart Automation Tools</b></p>
-                <p>
-                  I'm a paragraph. Click here to add your own text and edit me.
-                  I’m a great place for you to tell a story and let your users
-                  know a little more about you.
-                </p>
-              </div>
-            </div>
+          <div class="about__data">
+            <h1 class="section__title about__title">
+              Communicate. <br />
+              Collaborate. Create.
+            </h1>
+            <p class="about__description">
+              We provide an effective and powerful way to manage your projects
+            </p>
+            <!-- <a href="#" class="button">Know more</a> -->
           </div>
-        </div> -->
-      </section>
-
-      <section class="parent1" id="section4">
-        <!-- <div>
-          <img src="./img/createive.svg" style="height: 50%" alt="" />
         </div>
-        <div>
-          <h2>
-            Built for Creatives, <br />
-            by Creatives.
-          </h2>
-          <p>
-            I'm a paragraph. Click here to add your own text and edit me. It’s
-            easy. Just click “Edit Text” or double click me to add your own
-            content and make changes to the font. I’m a great place for you to
-            tell a story and let your users know a little more about you.
-          </p>
-        </div> -->
       </section>
 
-      <section class="parent1" id="section5">
-        <!-- <div>
-          <h2>Trusted Among Industry Leaders</h2>
-          <p>
-            I'm a paragraph. Click here to add your own text and edit me. It’s
-            easy. Just click “Edit Text” or double click me to add your own
-            content and make changes to the font. Feel free to drag and drop me
-            anywhere you like on your page. I’m a great place for you to tell a
-            story and let your users know a little more about you.
-          </p>
+      <section class="section about" id="section2">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              With the Right <br />
+              Software, Great <br />Things Can Happen
+            </h2>
+          </div>
+          <div>
+            <p class="about__description">
+              I'm a paragraph. Click here to add your own text and edit me. It’s
+              easy. Just click “Edit Text” or double click me to add your own
+              content and make changes to the font. Feel free to drag and drop
+              me anywhere you like on your page. I’m a great place for you to
+              tell a story and let your users know a little more about you.
+            </p>
+          </div>
         </div>
-        <div>
-          <img src="./img/trust.svg" alt="" />
-        </div> -->
       </section>
 
-      <section class="section" id="video">
-        <!-- <h2>Product Video</h2>
-        <p>
-          Get Ready to Maximize Your Productivity With Our Workflow Solutions
-        </p> -->
-        <!-- Embedded Product Video -->
-      </section>
+      <section class="section trick" id="trick">
+        <h2 class="section__title">Technologes</h2>
 
-      <section class="bottom-footer" id="form">
-        <!-- <div class="contact">
-          <h3>Contact</h3>
-          <form action="https://www.freecodecamp.com/email-submit" method="post">
-            <label for="email">Email:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="Enter your email"
-              required
+        <div class="trick__container container grid">
+          <div class="trick__content">
+            <img src="./img/html-1.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Html</h3>
+            <!-- <span class="trick__subtitle">Candy</span>
+                <span class="trick__price">$11.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img src="./img/css-3.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Css</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$8.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img src="./img/logo-javascript.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">JavaScript</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$15.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img src="./img/typescript.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">TypeScript</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$15.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img src="./img/npm-square-red-1.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">npm</h3>
+            <!-- <span class="trick__subtitle">Candy</span>
+                <span class="trick__price">$7.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img src="./img/git-icon.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">git</h3>
+            <!-- <span class="trick__subtitle">Candy</span>
+                <span class="trick__price">$19.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img src="./img/tailwind-css-2.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Tailwind</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img src="./img/react-2.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">React</h3>
+            <!-- <span class="trick__subtitle">Candy</span>
+                <span class="trick__price">$7.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img src="./img/next-js.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Next.js</h3>
+            <!-- <span class="trick__subtitle">Candy</span>
+                <span class="trick__price">$7.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img src="./img/redux.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Redux</h3>
+            <!-- <span class="trick__subtitle">Candy</span>
+                <span class="trick__price">$7.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/redux-saga.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Redux Saga</h3>
+            <!-- <span class="trick__subtitle">Candy</span>
+                <span class="trick__price">$7.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img src="./img/nodejs-1.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Node.js</h3>
+            <!-- <span class="trick__subtitle">Candy</span>
+                <span class="trick__price">$19.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+
+          <div class="trick__content">
+            <img src="./img/postgresql.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">PostgreSQL</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/mongodb-icon-1-1.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">MongoDB</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/firebase-1.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Firebase</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/redis.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Redis</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/jwt-3.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">JWT</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/docker.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Docker</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/kubernets.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Kubernetes</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/linux-tux.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Linux</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/aws-2.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">AWS</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/aws-ec2.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">EC2</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/aws-vpc-1.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">VPC</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img
+              src="./img/amazon-s3-simple-storage-service.svg"
+              alt=""
+              class="trick__img"
             />
-            <input type="submit" id="submit" value="Submit" />
+            <h3 class="trick__title">S3</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/aws-route53.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Route53</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/aws-ses.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">SES</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img src="./img/ansible.svg" alt="" class="trick__img" />
+            <h3 class="trick__title">Ansible</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+          <div class="trick__content">
+            <img
+              src="./img/terraform-enterprise.svg"
+              alt=""
+              class="trick__img"
+            />
+            <h3 class="trick__title">Terraform</h3>
+            <!-- <span class="trick__subtitle">Accessory</span>
+                <span class="trick__price">$17.99</span> -->
+            <button class="button trick__button">
+              <i class="bx bx-cart-alt trick__icon"></i>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="section category" id="section3">
+        <h2 class="section__title">What We Offer</h2>
+        <!-- <p class="">
+          I'm a paragraph. Click here to add your own text and edit me. It’s
+          easy. Just click “Edit Text” or double click me to add your own
+          content and make changes to the font.
+        </p> -->
+        <div class="category__container container grid">
+          <div class="category__data">
+            <img src="./img/workflow.svg" alt="Avatar" class="category__img" />
+
+            <h3 class="category__title">Workflows That Work</h3>
+            <p class="category__description">
+              I'm a paragraph. Click here to add your own text and edit me. I’m
+              a great place for you to tell a story and let your users know a
+              little more about you.
+            </p>
+          </div>
+          <div class="category__data">
+            <img src="./img/solution.svg" alt="Avatar" class="category__img" />
+
+            <h3 class="category__title">All-In-One Solution</h3>
+            <p class="category__description">
+              I'm a paragraph. Click here to add your own text and edit me. I’m
+              a great place for you to tell a story and let your users know a
+              little more about you.
+            </p>
+          </div>
+          <div class="category__data">
+            <img src="./img/support.svg" alt="Avatar" class="category__img" />
+
+            <h3 class="category__title">Comprehensive Customer Support</h3>
+            <p class="category__description">
+              I'm a paragraph. Click here to add your own text and edit me. I’m
+              a great place for you to tell a story and let your users know a
+              little more about you.
+            </p>
+          </div>
+          <div class="category__data">
+            <img src="./img/automate.svg" alt="Avatar" class="category__img" />
+
+            <h3 class="category__title">Smart Automation Tools</h3>
+            <p class="category__description">
+              I'm a paragraph. Click here to add your own text and edit me. I’m
+              a great place for you to tell a story and let your users know a
+              little more about you.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="">
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Built for Creatives, <br />
+              by Creatives.
+            </h2>
+            <p class="about__description">
+              I'm a paragraph. Click here to add your own text and edit me. It’s
+              easy. Just click “Edit Text” or double click me to add your own
+              content and make changes to the font. I’m a great place for you to
+              tell a story and let your users know a little more about you.
+            </p>
+            <!-- <a href="#" class="button">Know more</a> -->
+          </div>
+
+          <img src="./img/createive.svg" alt="" class="about__img" />
+        </div>
+      </section>
+
+      <section class="section about" id="section5">
+        <div class="about__container container grid">
+          <img src="./img/trust.svg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Trusted Among Industry Leaders
+            </h2>
+            <p class="about__description">
+              I'm a paragraph. Click here to add your own text and edit me. It’s
+              easy. Just click “Edit Text” or double click me to add your own
+              content and make changes to the font. Feel free to drag and drop
+              me anywhere you like on your page. I’m a great place for you to
+              tell a story and let your users know a little more about you.
+            </p>
+            <!-- <a href="#" class="button">Know more</a> -->
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" >
+        <div class="about__container container grid">
+          <div class="about__data">
+            <h2 class="section__title about__title">Check out this Video</h2>
+            <p class="about__description">
+              I'm a paragraph. Click here to add your own text and edit me. It’s
+              easy. Just click “Edit Text” or double click me to add your own
+              content and make changes to the font. I’m a great place for you to
+              tell a story and let your users know a little more about you.
+            </p>
+            <!-- <a href="#" class="button">Know more</a> -->
+          </div>
+          <video width="400" height="200" controls  id="video">
+            <source src="./img/product_video.mp4" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+          <!-- <img src="./img/createive.svg" alt="" class="about__img" /> -->
+        </div>
+      </section>
+
+      <section class="section about" id="section4">
+        <div class="about__container container grid">
+          <img src="./img/pricing.svg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <h2 class="section__title about__title">
+              Explore Our <br />
+              Pricing Options
+            </h2>
+            <p class="about__description">
+              I'm a paragraph. Click here to add your own text and edit me. It’s
+              easy. Just click “Edit Text” or double click me to add your own
+              content and make changes to the font. Feel free to drag and drop
+              me anywhere you like on your page. I’m a great place for you to
+              tell a story and let your users know a little more about you.
+            </p>
+            <a href="#" class="button">See More</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section newsletter" id="form">
+        <div class="newsletter__container container">
+          <h2 class="section__title">Contact Us</h2>
+          <p class="newsletter__description">
+            Promotion new products and sales. Directly to your inbox
+          </p>
+
+          <form action="https://www.freecodecamp.com/email-submit" class="newsletter__form" id="form">
+            <input
+              type="text"
+              placeholder="Enter your email"
+              class="newsletter__input"
+              id="email"
+            />
+            <button id="submit" class="button">Submit</button>
           </form>
         </div>
-        <div class="links">
-          <h3>Quick Links</h3>
-          <div>Terms & Conditions</div>
-          <div>Privacy Policy</div>
-        </div>
-        <div class="social-icons">
-          <h3>Follow</h3>
-          <div>LinkedIn</div>
-          <div>Github</div>
-          <div>Hire me</div>
-        </div> -->
       </section>
     </main>
 
-    <footer>© 2035 by Mohamad Shoaib.</footer>
+    <footer class="footer section">
+      <div class="footer__container container grid">
+        <div class="footer__content">
+          <a href="#" class="footer__logo">
+            <img src="img/logo.png" alt="" class="footer__logo-img" />
+            .IO
+          </a>
+
+          <p class="footer__description">
+            One stop <br />
+            of all your Web Development Worries.
+          </p>
+
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-facebook"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-instagram-alt"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="bx bxl-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Quick Links</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">About Us</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Terms & Conditions</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Privacy Policy</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Follow Me</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">LinkdIn</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Github</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Portfolio</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer__content">
+          <h3 class="footer__title">Additional Resouces</h3>
+
+          <ul class="footer__links">
+            <li>
+              <a href="#" class="footer__link">Learn</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Roadmap</a>
+            </li>
+            <li>
+              <a href="#" class="footer__link">Docs</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <span class="footer__copy"
+        >&#169; 2035 by Mohamad Shoaib. All rigths reserved</span
+      >
+
+      <img src="assets/img/footer1-img.png" alt="" class="footer__img-one" />
+      <img src="assets/img/footer2-img.png" alt="" class="footer__img-two" />
+    </footer>
   </body>
 </html>
